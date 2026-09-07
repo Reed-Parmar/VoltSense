@@ -11,7 +11,7 @@ VoltSense analyzes battery management system (BMS) telemetry data across multipl
 | Subsystem | Technology | Current Status | Notes |
 |---|---|---|---|
 | **Frontend** | React 18, Vite, Tailwind CSS | **IMPLEMENTED** | Interactive dashboard, vehicles view, telemetry upload simulator, degradation charts, inference history. Uses client state/mock data. |
-| **Backend** | Node.js, Express REST API | **PLANNED** | Orchestration layer, REST endpoints, JWT auth, database queries, storage dispatch. |
+| **Backend** | Node.js, Express REST API | **IMPLEMENTED** | Orchestration layer, REST endpoints, JWT auth, database queries, storage dispatch, and test suite. |
 | **Data Pipeline** | Python (pandas, numpy, scipy) | **PLANNED** | Ingestion, validation, manufacturer adapters, cleaning, outlier detection, feature engineering. |
 | **ML Engine** | Python (Bayesian MCMC, NeuralODE) | **PLANNED** | SOH & RUL model inference, degradation curves, credible intervals, confidence scoring. |
 | **Database** | MongoDB Atlas (v7.0+ WiredTiger) | **LOCKED / DESIGNED** | Authoritative 8-collection schema locked in `database-schema.md`. |

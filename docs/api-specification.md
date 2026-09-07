@@ -1,7 +1,7 @@
 # VoltSense REST API Specification
 
-> **Implementation Status**: `PLANNED / NOT IMPLEMENTED`  
-> All endpoints documented here represent the planned contract between the React Frontend and the Node.js / Express Backend. No backend endpoints are currently implemented.
+> **Implementation Status**: `IMPLEMENTED`  
+> All endpoints documented here represent the active contract implemented in the Node.js / Express backend under `backend/`.
 
 ---
 
