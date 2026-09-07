@@ -5,9 +5,6 @@
 VoltSense enforces a multi-tier testing methodology spanning unit, integration, contract, and end-to-end (E2E) verification across its web, backend, and numerical computing subsystems.
 
 ```text
-  /─────────────────────────────────────────────────────────────\
- /                   END-TO-END TESTS (Playwright)               \
-/        Full user journey from sign-in to SOH report             \
 ├─────────────────────────────────────────────────────────────────┤
 │               CONTRACT TESTS (OpenAPI / Schema Valid)           │
 │         Frontend <-> Backend & Backend <-> ML Interoperability  │
